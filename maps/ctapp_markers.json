@@ -1,0 +1,932 @@
+ markers = [
+    {
+      "lng": "-71.99602568",
+      "town": "Ledyard",
+      "bushels": "25",
+      "address": "551 Colonel Ledyard Highway",
+      "location132": "Ledyard, CT 06339",
+      "location12": "551 Colonel Ledyard Highway",
+      "lat": "41.42850456",
+      "name": "Hidden Brook Gardens LLC"
+    },
+    {
+      "lng": "-72.9731778",
+      "town": "Bristol",
+      "bushels": "330",
+      "address": "125 Hill Street",
+      "location132": "Bristol, CT 06010",
+      "location12": "125 Hill Street",
+      "lat": "41.68505852",
+      "name": "Roberts Orchard"
+    },
+    {
+      "lng": "-73.3406455",
+      "town": "Washington Depot",
+      "bushels": "2750",
+      "address": "250 Calhoun Street",
+      "location132": "Washington Depot, CT 06794",
+      "location12": "250 Calhoun Street",
+      "lat": "41.6637247",
+      "name": "Averill Farm"
+    },
+    {
+      "lng": "-71.94735118",
+      "town": "Plainfield",
+      "bushels": "92",
+      "address": "380 Tarbox Road",
+      "location132": "Plainfield, CT 06374",
+      "location12": "380 Tarbox Road",
+      "lat": "41.65606517",
+      "name": "Barbuto Orchards"
+    },
+    {
+      "lng": "-72.61114167",
+      "town": "South Glastonbury",
+      "bushels": "",
+      "address": "77 Tryon Street",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "77 Tryon Street",
+      "lat": "41.66605329",
+      "name": "Killiam & Bassette Farmstead"
+    },
+    {
+      "lng": "-73.15548279",
+      "town": "Shelton",
+      "bushels": "1800",
+      "address": "89 Pearmain Rd",
+      "location132": "Shelton, CT 06484",
+      "location12": "89 Pearmain Rd",
+      "lat": "41.32673119",
+      "name": "\"Beardsley's Cider Mill & Orchard, LLC\""
+    },
+    {
+      "lng": "-72.59891501",
+      "town": "South Glastonbury",
+      "bushels": "",
+      "address": "1269 Main Street",
+      "location132": "South Glastonbury, CT 06033",
+      "location12": "1269 Main Street",
+      "lat": "41.67922037",
+      "name": "Beckett Farms LLC"
+    },
+    {
+      "lng": "-73.12417235",
+      "town": "Oxford",
+      "bushels": "300",
+      "address": "124 Moose Hill Road",
+      "location132": "Oxford, CT 06478",
+      "location12": "124 Moose Hill Road",
+      "lat": "41.39971527",
+      "name": "Belinsky Family Farm"
+    },
+    {
+      "lng": "-72.58944092",
+      "town": "Glastonbury",
+      "bushels": "2860",
+      "address": "62 Lenti Terrace",
+      "location132": "Glastonbury, CT 06033",
+      "location12": "62 Lenti Terrace",
+      "lat": "41.67647254",
+      "name": "Berruti's Harvest House"
+    },
+    {
+      "lng": "-72.69486166",
+      "town": "Guilford",
+      "bushels": "34070",
+      "address": "1355 Boston Post Road",
+      "location132": "Guilford, CT 06437",
+      "location12": "1355 Boston Post Road",
+      "lat": "41.28936367",
+      "name": "Bishop's orchard"
+    },
+    {
+      "lng": "-71.98118583",
+      "town": "Woodstock",
+      "bushels": "",
+      "address": "P.O. Box 113",
+      "location132": "Woodstock, CT 06281-0113",
+      "location12": "P.O. Box 113",
+      "lat": "41.9554309",
+      "name": "Woodstock Orchards LLC"
+    },
+    {
+      "lng": "-72.87305016",
+      "town": "Cheshire",
+      "bushels": "260",
+      "address": "636 Reservoir Road",
+      "location132": "Cheshire, CT 06410",
+      "location12": "636 Reservoir Road",
+      "lat": "41.51128649",
+      "name": "Colton's Corner Farm"
+    },
+    {
+      "lng": "-72.4427997",
+      "town": "Somers",
+      "bushels": "",
+      "address": "11 mt.view rd.",
+      "location132": "Somers, CT 06071",
+      "location12": "11 mt.view rd.",
+      "lat": "41.97256761",
+      "name": "Bordeaux Orchard"
+    },
+    {
+      "lng": "-73.4260763",
+      "town": "Sharon",
+      "bushels": "0",
+      "address": "461 Cornwall Bridge Road (Rte. 4)",
+      "location132": "Sharon, CT 06069",
+      "location12": "461 Cornwall Bridge Road (Rte. 4)",
+      "lat": "41.83039405",
+      "name": "Ellsworth Hill Orchard and Berry Farm LLC."
+    },
+    {
+      "lng": "-71.96861725",
+      "town": "Griswold",
+      "bushels": "",
+      "address": "482 Preston Road",
+      "location132": "Griswold, CT 06351",
+      "location12": "482 Preston Road",
+      "lat": "41.56810144",
+      "name": "Brewster's Orchard"
+    },
+    {
+      "lng": "-73.30471638",
+      "town": "Roxbury",
+      "bushels": "889",
+      "address": "57 Church Street",
+      "location132": "Roxbury, CT 06783",
+      "location12": "57 Church Street",
+      "lat": "41.55937327",
+      "name": "Maple Bank Farm LLC"
+    },
+    {
+      "lng": "-72.46910136",
+      "town": "GLASTONBURY",
+      "bushels": "2833",
+      "address": "3499 HEBRON AVE",
+      "location132": "GLASTONBURY, CT 06033-2810",
+      "location12": "3499 HEBRON AVE",
+      "lat": "41.7025035",
+      "name": "Deercrest Farm"
+    },
+    {
+      "lng": "-72.56237124",
+      "town": "South Glastonbury",
+      "bushels": "8200",
+      "address": "101 Clark Hill Road",
+      "location132": "South Glastonbury, CT 06073-3507",
+      "location12": "101 Clark Hill Road",
+      "lat": "41.64944669",
+      "name": "BUSSA ORCHARDS"
+    },
+    {
+      "lng": "-72.5660605",
+      "town": "South Glastonbury",
+      "bushels": "3950",
+      "address": "80 Woodland St",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "80 Woodland St",
+      "lat": "41.66964762",
+      "name": "Cavanna Farm"
+    },
+    {
+      "lng": "-73.16589552",
+      "town": "Norfold",
+      "bushels": "",
+      "address": "879 Winchester Road",
+      "location132": "Norfold, CT 06058",
+      "location12": "879 Winchester Road",
+      "lat": "41.9129292",
+      "name": "Autumn Harvest Orchard LLC"
+    },
+    {
+      "lng": "-72.75395067",
+      "town": "East Granby",
+      "bushels": "6400",
+      "address": "30 Copper Hill Rd",
+      "location132": "East Granby, CT 06026",
+      "location12": "30 Copper Hill Rd",
+      "lat": "41.97414664",
+      "name": "Clark Farms at Bushy Hill Orchard"
+    },
+    {
+      "lng": "-72.87517381",
+      "town": "Cheshire",
+      "bushels": "",
+      "address": "500 South Meriden Road",
+      "location132": "Cheshire, CT 06410",
+      "location12": "500 South Meriden Road",
+      "lat": "41.51011274",
+      "name": "Bishop's Farm  of Cheshire"
+    },
+    {
+      "lng": "-71.87252732",
+      "town": "Moosup",
+      "bushels": "60",
+      "address": "765 Squaw Road Road",
+      "location132": "Moosup, CT 06354",
+      "location12": "765 Squaw Road Road",
+      "lat": "41.7188217",
+      "name": "Zakaraki Estate"
+    },
+    {
+      "lng": "-72.27119955",
+      "town": "Columbia",
+      "bushels": "0",
+      "address": "563 Route 87 ",
+      "location132": "Columbia, CT 06237",
+      "location12": "563 Route 87",
+      "lat": "41.67665613",
+      "name": "Olde Murphy Farm"
+    },
+    {
+      "lng": "-72.48364701",
+      "town": "Ellington",
+      "bushels": "",
+      "address": "16 Brookfield Drive",
+      "location132": "Ellington, CT 06029",
+      "location12": "16 Brookfield Drive",
+      "lat": "41.92268581",
+      "name": "Horse Listeners Orchard"
+    },
+    {
+      "lng": "-73.07687381",
+      "town": "Harwinton",
+      "bushels": "250",
+      "address": "60 Delay Road",
+      "location132": "Harwinton, CT 06791",
+      "location12": "60 Delay Road",
+      "lat": "41.75453779",
+      "name": "FAIRVIEW FARM"
+    },
+    {
+      "lng": "-71.86814734",
+      "town": "Moosup",
+      "bushels": "800",
+      "address": "701 Squaw Rock Road",
+      "location132": "Moosup, CT 06354",
+      "location12": "701 Squaw Rock Road",
+      "lat": "41.75850949",
+      "name": "18th Century Purity Farms at the Hall Homestead"
+    },
+    {
+      "lng": "-73.33620231",
+      "town": "Washington Depot",
+      "bushels": "",
+      "address": "214 Calhoun Street",
+      "location132": "Washington Depot, CT 06794-1119",
+      "location12": "214 Calhoun Street",
+      "lat": "41.66138853",
+      "name": "HALLOCK ORCHARD"
+    },
+    {
+      "lng": "-72.77160461",
+      "town": "Bloomfield",
+      "bushels": "",
+      "address": "158 Auer Farm Road",
+      "location132": "Bloomfield, CT 06002",
+      "location12": "158 Auer Farm Road",
+      "lat": "41.8126287",
+      "name": "4-H CENTER AT AUER FARM"
+    },
+    {
+      "lng": "-72.814307",
+      "town": "Northford",
+      "bushels": "",
+      "address": "1038 Middletown",
+      "location132": "Northford, CT 06472",
+      "location12": "1038 Middletown",
+      "lat": "41.37959555",
+      "name": "Country Farm Market"
+    },
+    {
+      "lng": "-72.79931356",
+      "town": "Northford",
+      "bushels": "",
+      "address": "415 Forest Road",
+      "location132": "Northford, CT 06472",
+      "location12": "415 Forest Road",
+      "lat": "41.36386185",
+      "name": "Country Farm II"
+    },
+    {
+      "lng": "-72.55948365",
+      "town": "South Glastonbury",
+      "bushels": "1000",
+      "address": "500 Country Club Road",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "500 Country Club Road",
+      "lat": "41.65659223",
+      "name": "\"Dondero Orchards, LLC\""
+    },
+    {
+      "lng": "-72.60283962",
+      "town": "East Windsor",
+      "bushels": "3100",
+      "address": "379 Scantic Road",
+      "location132": "East Windsor, CT 06088",
+      "location12": "379 Scantic Road",
+      "lat": "41.86839606",
+      "name": "Draghi Farm"
+    },
+    {
+      "lng": "-72.57969869",
+      "town": "South Glastonbury",
+      "bushels": "",
+      "address": "PO Box 433",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "PO Box 433",
+      "lat": "41.66130252",
+      "name": "Littel Acres Farm"
+    },
+    {
+      "lng": "-72.60548612",
+      "town": "South Glastonbury",
+      "bushels": "",
+      "address": "80 Main Street",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "80 Main Street",
+      "lat": "41.63844944",
+      "name": "E Draghi & Son's Farm LLC"
+    },
+    {
+      "lng": "-72.8936969",
+      "town": "Cheshire",
+      "bushels": "2700",
+      "address": "251 Wallingford Road",
+      "location132": "Cheshire, CT 06410",
+      "location12": "251 Wallingford Road",
+      "lat": "41.49353909",
+      "name": "Drazen Orchards"
+    },
+    {
+      "lng": "-72.60504978",
+      "town": "South Glastonbury",
+      "bushels": "",
+      "address": "345 Main Street",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "345 Main Street",
+      "lat": "41.64848056",
+      "name": "TRICKA FARM"
+    },
+    {
+      "lng": "-72.20272567",
+      "town": "Ashford",
+      "bushels": "",
+      "address": "459 Zaicek Road",
+      "location132": "Ashford, CT 06278",
+      "location12": "459 Zaicek Road",
+      "lat": "41.89683057",
+      "name": "Laurel Lane Farm"
+    },
+    {
+      "lng": "-73.32457602",
+      "town": "Washington Depot",
+      "bushels": "348",
+      "address": "81 Kielwasser Road",
+      "location132": "Washington Depot, CT 06794",
+      "location12": "81 Kielwasser Road",
+      "lat": "41.64684234",
+      "name": "Starberry Farm"
+    },
+    {
+      "lng": "-72.59892842",
+      "town": "Portland",
+      "bushels": "3.46",
+      "address": "\"661 Glastonbury Turnpike, Rte. 17\"",
+      "location132": "Portland, CT 06480",
+      "location12": "661 Glastonbury Turnpike, Rte. 17",
+      "lat": "41.61565866",
+      "name": "Gotta's Farm"
+    },
+    {
+      "lng": "-73.13331587",
+      "town": "Watertown",
+      "bushels": "800",
+      "address": "936 Linkfield Rd",
+      "location132": "Watertown, CT 06795",
+      "location12": "936 Linkfield Rd",
+      "lat": "41.64932706",
+      "name": "Gustafson Brothers"
+    },
+    {
+      "lng": "-73.01690381",
+      "town": "New Hartford",
+      "bushels": "3000",
+      "address": "238 Hayward Road",
+      "location132": "New Hartford, CT 06057",
+      "location12": "238 Hayward Road",
+      "lat": "41.79919277",
+      "name": "HAYWARD FARM"
+    },
+    {
+      "lng": "-72.86646011",
+      "town": "Wallingford",
+      "bushels": "30000",
+      "address": "141 Blue Hill Road",
+      "location132": "Wallingford, CT 06492",
+      "location12": "141 Blue Hill Road",
+      "lat": "41.44931751",
+      "name": "\"Blue Hills Orchard, Inc.\""
+    },
+    {
+      "lng": "-72.94662924",
+      "town": "Hamden",
+      "bushels": "5057",
+      "address": "810 Dunbar Hill Road",
+      "location132": "Hamden, CT 06514",
+      "location12": "810 Dunbar Hill Road",
+      "lat": "41.37952804",
+      "name": "Hindinger Farm"
+    },
+    {
+      "lng": "-72.05713173",
+      "town": "Gales Ferry",
+      "bushels": "11200",
+      "address": "12 Orchard Drive. 1990 Rte 12",
+      "location132": "Gales Ferry, CT 06335",
+      "location12": "12 Orchard Drive. 1990 Rte 12",
+      "lat": "41.46850325",
+      "name": "Holmberg Orchards and Winery"
+    },
+    {
+      "lng": "-72.82920213",
+      "town": "Southington",
+      "bushels": "1690",
+      "address": "894 Andrews Street",
+      "location132": "Southington, CT 06489",
+      "location12": "894 Andrews Street",
+      "lat": "41.61609608",
+      "name": "Karabin Farms"
+    },
+    {
+      "lng": "-72.50410777",
+      "town": "Enfield",
+      "bushels": "3200",
+      "address": "46 Bailey Road",
+      "location132": "Enfield, CT 06082",
+      "location12": "46 Bailey Road",
+      "lat": "41.97744286",
+      "name": "Easy Pickin's Orchard"
+    },
+    {
+      "lng": "-72.382097",
+      "town": "Tolland",
+      "bushels": "2294",
+      "address": "41 New Road",
+      "location132": "Tolland, CT 06084",
+      "location12": "41 New Road",
+      "lat": "41.83756172",
+      "name": "Kollas Orchard"
+    },
+    {
+      "lng": "-72.87604079",
+      "town": "Cheshire",
+      "bushels": "3513",
+      "address": "351 South Meriden Road",
+      "location132": "Cheshire, CT 06410",
+      "location12": "351 South Meriden Road",
+      "lat": "41.50608575",
+      "name": "Hickory Hill Orchards"
+    },
+    {
+      "lng": "-71.93458704",
+      "town": "Brooklyn",
+      "bushels": "330",
+      "address": "PO Box 811",
+      "location132": "Brooklyn, CT 06234",
+      "location12": "PO Box 811",
+      "lat": "41.7855436",
+      "name": "Benjamin's Orchard"
+    },
+    {
+      "lng": "-72.72135891",
+      "town": "Middlefield",
+      "bushels": "55780",
+      "address": "P. O. Box 453",
+      "location132": "Middlefield, CT 06455",
+      "location12": "P. O. Box 453",
+      "lat": "41.51564055",
+      "name": "lyman orchard"
+    },
+    {
+      "lng": "-73.21432242",
+      "town": "Bethlehem",
+      "bushels": "7190",
+      "address": "160 Munger Lane",
+      "location132": "Bethlehem, CT 06751",
+      "location12": "160 Munger Lane",
+      "lat": "41.64868974",
+      "name": "March Farm"
+    },
+    {
+      "lng": "-73.26113942",
+      "town": "Newtonw",
+      "bushels": "",
+      "address": "112-116 South Main Street",
+      "location132": "Newtonw, CT 06470",
+      "location12": "112-116 South Main Street",
+      "lat": "41.35489324",
+      "name": "Middlebrook Farm & Orchard"
+    },
+    {
+      "lng": "-72.97451768",
+      "town": "Bristol",
+      "bushels": "0",
+      "address": "409 Hill St",
+      "location132": "Bristol, CT 06010",
+      "location12": "409 Hill St",
+      "lat": "41.69236671",
+      "name": "Minor's Farm & Cider Mill"
+    },
+    {
+      "lng": "-71.84485593",
+      "town": "Moosup",
+      "bushels": "",
+      "address": "36 Cedar Swamp Road",
+      "location132": "Moosup, CT 06354",
+      "location12": "36 Cedar Swamp Road",
+      "lat": "41.64690613",
+      "name": "Betsy's Stand"
+    },
+    {
+      "lng": "-72.5211455",
+      "town": "Broad Brook",
+      "bushels": "1459",
+      "address": "216 East Rd",
+      "location132": "Broad Brook, CT 06016",
+      "location12": "216 East Rd",
+      "lat": "41.9056475",
+      "name": "Applebrook Farm & Cider Mill"
+    },
+    {
+      "lng": "-72.01135657",
+      "town": "Woodstock",
+      "bushels": "300",
+      "address": "387 County Road",
+      "location132": "Woodstock, CT 06281-2112",
+      "location12": "387 County Road",
+      "lat": "41.96797919",
+      "name": "Norman's Sugarhouse"
+    },
+    {
+      "lng": "-71.8199571",
+      "town": "East Killingly",
+      "bushels": "5325",
+      "address": "P. O. Box 213",
+      "location132": "East Killingly, CT 06243",
+      "location12": "P. O. Box 213",
+      "lat": "41.84902413",
+      "name": "Palazzi Orchard"
+    },
+    {
+      "lng": "-73.3790702",
+      "town": "Bethel",
+      "bushels": "3257",
+      "address": "125 Plumtrees Road",
+      "location132": "Bethel, CT 06801",
+      "location12": "125 Plumtrees Road",
+      "lat": "41.3953174",
+      "name": "Blue Jay Orchards"
+    },
+    {
+      "lng": "-72.90555673",
+      "town": "Cheshire",
+      "bushels": "16847",
+      "address": "P. O. Box 305",
+      "location132": "Cheshire, CT 06410",
+      "location12": "P. O. Box 305",
+      "lat": "41.50745022",
+      "name": "norton bros.fruit farm"
+    },
+    {
+      "lng": "-72.45312868",
+      "town": "SOMERS",
+      "bushels": "",
+      "address": "328 B PINNEY RD",
+      "location132": "SOMERS, CT 06071",
+      "location12": "328 B PINNEY RD",
+      "lat": "41.99518143",
+      "name": "IRISH BEND ORCHARD"
+    },
+    {
+      "lng": "-72.2406181",
+      "town": "Lebanon",
+      "bushels": "450",
+      "address": "480 Trumbull Hwy",
+      "location132": "Lebanon, CT 06249",
+      "location12": "480 Trumbull Hwy",
+      "lat": "41.65021537",
+      "name": "Bluebird Hill Farm"
+    },
+    {
+      "lng": "-72.99662553",
+      "town": "New Hartford",
+      "bushels": "501",
+      "address": "\"250 Town Hill Road, Route 219\"",
+      "location132": "New Hartford, CT 06057",
+      "location12": "250 Town Hill Road, Route 219",
+      "lat": "41.87393967",
+      "name": "BURDICK ROAD ORCHARD"
+    },
+    {
+      "lng": "-72.57777212",
+      "town": "South Glastonbury",
+      "bushels": "24960",
+      "address": "475 Matson Hill Rd.",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "475 Matson Hill Rd.",
+      "lat": "41.65110249",
+      "name": "\"Belltown Hill Orchards, LLC\""
+    },
+    {
+      "lng": "-72.21692517",
+      "town": "Lebanon",
+      "bushels": "500",
+      "address": "119 West Town Street",
+      "location132": "Lebanon, CT 06249",
+      "location12": "119 West Town Street",
+      "lat": "41.63895874",
+      "name": "\"West Green Farm, LLC\""
+    },
+    {
+      "lng": "-72.60476718",
+      "town": "South Glastonbury",
+      "bushels": "5000",
+      "address": "675 Main Street",
+      "location132": "South Glastonbury, CT 06073-3121",
+      "location12": "675 Main Street",
+      "lat": "41.6589492",
+      "name": "Ferrari Farms"
+    },
+    {
+      "lng": "-72.93239974",
+      "town": "Burlington",
+      "bushels": "",
+      "address": "57 Spielman Highway",
+      "location132": "Burlington, CT 06013",
+      "location12": "57 Spielman Highway",
+      "lat": "41.77950315",
+      "name": "Hard Rain Farm"
+    },
+    {
+      "lng": "-72.83839218",
+      "town": "Southington",
+      "bushels": "78000",
+      "address": "336 Long Bottom Road",
+      "location132": "Southington, CT 06489",
+      "location12": "336 Long Bottom Road",
+      "lat": "41.636832",
+      "name": "Rogers Orchards Inc."
+    },
+    {
+      "lng": "-72.77077603",
+      "town": "North Branford",
+      "bushels": "",
+      "address": "33 Branford Road",
+      "location132": "North Branford, CT 06471",
+      "location12": "33 Branford Road",
+      "lat": "41.30730995",
+      "name": "ROSE ORCHARDS"
+    },
+    {
+      "lng": "-72.58138339",
+      "town": "South Glastonbury",
+      "bushels": "",
+      "address": "295 Matson Hill Road",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "295 Matson Hill Road",
+      "lat": "41.65619308",
+      "name": "\"Rose's Berry Farm, LLC\""
+    },
+    {
+      "lng": "-72.1035031",
+      "town": "Chaplin",
+      "bushels": "",
+      "address": "392 Hampton Road",
+      "location132": "Chaplin, CT 06235",
+      "location12": "392 Hampton Road",
+      "lat": "41.76752359",
+      "name": "Chaplin Farm"
+    },
+    {
+      "lng": "-72.10551924",
+      "town": "Eastford",
+      "bushels": "18500",
+      "address": "108 Crystal Pond Road",
+      "location132": "Eastford, CT 06242",
+      "location12": "108 Crystal Pond Road",
+      "lat": "41.91981033",
+      "name": "Buell's Orchard"
+    },
+    {
+      "lng": "-72.44900918",
+      "town": "Deep River",
+      "bushels": "4400",
+      "address": "274 Kelsey Hill Rd",
+      "location132": "Deep River, CT 06417",
+      "location12": "274 Kelsey Hill Rd",
+      "lat": "41.36862017",
+      "name": "CONNECTICUT VALLEY ORCHARD"
+    },
+    {
+      "lng": "-72.56006362",
+      "town": "Glastonbury",
+      "bushels": "3000",
+      "address": "1838 New London Turnpike",
+      "location132": "Glastonbury, CT 06033",
+      "location12": "1838 New London Turnpike",
+      "lat": "41.68711436",
+      "name": "scott orchard\/nursery"
+    },
+    {
+      "lng": "-72.2501064",
+      "town": "East Lyme",
+      "bushels": "4829",
+      "address": "291 N. Bride Brook Road",
+      "location132": "East Lyme, CT 06333",
+      "location12": "291 N. Bride Brook Road",
+      "lat": "41.35275091",
+      "name": "\"Scott's Yankee Farmer, LLC\""
+    },
+    {
+      "lng": "-72.40075577",
+      "town": "Tolland",
+      "bushels": "13000",
+      "address": "13 Schoolhouse Rd",
+      "location132": "Tolland, CT 06029",
+      "location12": "13 Schoolhouse Rd",
+      "lat": "41.93447837",
+      "name": "Johnny Appleseed Farm"
+    },
+    {
+      "lng": "-73.2786145",
+      "town": "Easton",
+      "bushels": "8500",
+      "address": "451 Sport Hill Road",
+      "location132": "Easton, CT 06612",
+      "location12": "451 Sport Hill Road",
+      "lat": "41.24929984",
+      "name": "Silverman's Farm"
+    },
+    {
+      "lng": "-72.43363958",
+      "town": "East Haddam",
+      "bushels": "",
+      "address": "278 Town Street",
+      "location132": "East Haddam, CT 06423",
+      "location12": "278 Town Street",
+      "lat": "41.45337399",
+      "name": "Staehly Farms"
+    },
+    {
+      "lng": "-71.99031567",
+      "town": "Woodstock",
+      "bushels": "",
+      "address": "47 Dividend Rd",
+      "location132": "Woodstock, CT 06281",
+      "location12": "47 Dividend Rd",
+      "lat": "41.96712593",
+      "name": "High Springs Orchard"
+    },
+    {
+      "lng": "-72.56310162",
+      "town": "South Glastonbury",
+      "bushels": "3250",
+      "address": "615 woodland st",
+      "location132": "South Glastonbury, CT 06073",
+      "location12": "615 woodland st",
+      "lat": "41.65529488",
+      "name": "WOODLAND FARM"
+    },
+    {
+      "lng": "-72.94895897",
+      "town": "Burlington",
+      "bushels": "800",
+      "address": "418 Milford Street",
+      "location132": "Burlington, CT 06013",
+      "location12": "418 Milford Street",
+      "lat": "41.72331239",
+      "name": "TONN'S ORCHARD"
+    },
+    {
+      "lng": "-72.33575487",
+      "town": "Columbia",
+      "bushels": "250",
+      "address": "402 Middletown Road",
+      "location132": "Columbia, CT 06237",
+      "location12": "402 Middletown Road",
+      "lat": "41.67996386",
+      "name": "Verizzi's Apple Farm"
+    },
+    {
+      "lng": "-73.46853689",
+      "town": "Kent",
+      "bushels": "",
+      "address": "22 Segar Mountain Rd",
+      "location132": "Kent, CT 06757",
+      "location12": "22 Segar Mountain Rd",
+      "lat": "41.71445022",
+      "name": "EASTERN FARM OF KENT"
+    },
+    {
+      "lng": "-72.00095604",
+      "town": "Mystic",
+      "bushels": "1774",
+      "address": "1030 Noank Ledyard Road",
+      "location132": "Mystic, CT 06355",
+      "location12": "1030 Noank Ledyard Road",
+      "lat": "41.37552149",
+      "name": "Whittle's Willow Spring Farm"
+    },
+    {
+      "lng": "-71.95867414",
+      "town": "Pomfret Center",
+      "bushels": "3900",
+      "address": "403 Orchard Hill Road (Rte. 169)",
+      "location132": "Pomfret Center, CT 06259",
+      "location12": "403 Orchard Hill Road (Rte. 169)",
+      "lat": "41.82901857",
+      "name": "lapsley orchard"
+    },
+    {
+      "lng": "-72.3116116",
+      "town": "Tolland",
+      "bushels": "2060",
+      "address": "271 South River Road",
+      "location132": "Tolland, CT 06084",
+      "location12": "271 South River Road",
+      "lat": "41.86535626",
+      "name": "Wright's Orchard & Dried Flower Farm"
+    },
+    {
+      "lng": "-72.86368977",
+      "town": "North Granby",
+      "bushels": "",
+      "address": "130 Lost Acres Road",
+      "location132": "North Granby, CT 06060",
+      "location12": "130 Lost Acres Road",
+      "lat": "42.00849571",
+      "name": "LOST ACRES ORCHARD & FARM STORE"
+    },
+    {
+      "lng": "-72.75591324",
+      "town": "Meriden",
+      "bushels": "2292",
+      "address": "170 Fleming Road",
+      "location132": "Meriden, CT 06450",
+      "location12": "170 Fleming Road",
+      "lat": "41.50206823",
+      "name": "High Hill Orchard Company"
+    },
+    {
+      "lng": "-71.98118583",
+      "town": "woodstock",
+      "bushels": "17190",
+      "address": "po box 113",
+      "location132": "woodstock, ct 06281-0113",
+      "location12": "po box 113",
+      "lat": "41.9554309",
+      "name": "Woodstock Orchards LLC"
+    },
+    {
+      "lng": "-72.7990826",
+      "town": "Kensington",
+      "bushels": "",
+      "address": "1684 Chamberlain Highway",
+      "location132": "Kensington, CT 06037",
+      "location12": "1684 Chamberlain Highway",
+      "lat": "41.59159302",
+      "name": "Laviana Orchard"
+    },
+    {
+      "lng": "-71.96631595",
+      "town": "Preston",
+      "bushels": "",
+      "address": "57 N.W. Corner Road",
+      "location132": "Preston, CT 06365",
+      "location12": "57 N.W. Corner Road",
+      "lat": "41.5233959",
+      "name": "Maple Lane Farms"
+    },
+    {
+      "lng": "-73.00815813",
+      "town": "New Hartford",
+      "bushels": "",
+      "address": "265 South Road",
+      "location132": "New Hartford, CT 06057",
+      "location12": "265 South Road",
+      "lat": "41.8120448",
+      "name": "Holiday Farm Orchard"
+    },
+    {
+      "lng": "-72.86085074",
+      "town": "North Haven",
+      "bushels": "",
+      "address": "1940 Hartford Tpke",
+      "location132": "North Haven, CT 06473",
+      "location12": "1940 Hartford Tpke",
+      "lat": "41.41878529",
+      "name": "Frankies Fruit and Vegetables"
+    }
+  ];
