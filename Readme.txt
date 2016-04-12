@@ -14,4 +14,4 @@ https://catalog.data.gov/dataset/2013-apple-growers-list/resource/7156d198-ac92-
 
 Arpil 11, 2016
 Minghu Song
-https://github.com/songminghu2004/Leaflet_CT_Orchards
+http://songminghu2004.github.io/Leaflet_CT_Orchards/
